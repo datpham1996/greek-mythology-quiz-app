@@ -1,46 +1,47 @@
-body {
-    color: aqua;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+h1 {
+	text-align: center;
+	font-family: cursive;
 }
 
+body {
+  background-image: url(images/maxresdefault.jpg);
+  
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+p {
+  font-size:24px;
+}
+
+.welcome, .quiz-interface, .answer-response, .quiz-results {
+  margin: 20px;
+  padding: 26px;
+  border: 2px solid darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+}
+
+ol li {
+  margin: 8px;
+  font-size: 24px;
+}
+
+input[type='radio'] {transform: scale(1.4)}
 
 
+.quiz-results {
+	text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.submit-answer, #beginQuiz, .restart-quiz {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
 
 /* Your styles should be mobile-first and responsive */
 
